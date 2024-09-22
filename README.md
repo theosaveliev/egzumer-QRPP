@@ -10,6 +10,5 @@ I will provide more info if it passes the testing.
 
 #### Flashing
 
-1. Open https://egzumer.github.io/uvtools/
-2. Download [firmware.packed.bin](https://github.com/theosaveliev/egzumer-QRPP/raw/refs/heads/main/firmware.packed.bin)
-3. Select the file and flash ([instruction](https://github.com/egzumer/uv-k5-firmware-custom/wiki/Flashing-the-firmware))
+* [Flash with UVTools](https://egzumer.github.io/uvtools/?firmwareURL=https://github.com/theosaveliev/egzumer-QRPP/raw/refs/heads/main/firmware.packed.bin)
+* [Help](https://github.com/egzumer/uv-k5-firmware-custom/wiki/Flashing-the-firmware)
