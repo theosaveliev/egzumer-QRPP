@@ -1,5 +1,4 @@
-egzumer-QRPP
-============
+## egzumer-QRPP
 
 QRPP changes for https://github.com/egzumer/uv-k5-firmware-custom
 
@@ -9,8 +8,7 @@ It is based on current **main** (https://github.com/egzumer/uv-k5-firmware-custo
 
 I will provide more info if it passes the testing. 
 
-Flashing
-********
+#### Flashing
 
 1. Open https://egzumer.github.io/uvtools/
 2. Download [firmware.packed.bin](https://github.com/theosaveliev/egzumer-QRPP/raw/refs/heads/main/firmware.packed.bin)
