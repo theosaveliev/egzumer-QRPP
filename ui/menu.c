@@ -281,7 +281,7 @@ const char * const gSubMenu_F_LOCK[] =
 	"CE HAM\n144-146\n430-440",
 	"GB HAM\n144-148\n430-440",
 	"137-174\n400-430",
-	"137-174\n400-438",
+	"PMR",
 	"DISABLE\nALL",
 	"UNLOCK\nALL",
 };
