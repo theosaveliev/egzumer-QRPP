@@ -461,14 +461,19 @@ void RADIO_ConfigureSquelchAndOutputPower(VFO_Info_t *pInfo)
 #ifdef ENABLE_REDUCE_LOW_MID_TX_POWER
 	// make low and mid even lower
 	if (pInfo->OUTPUT_POWER == OUTPUT_POWER_LOW) {
-		Txp[0] /= 5000;
-		Txp[1] /= 5000;
-		Txp[2] /= 5000;
+		Txp[0] /= 2;
+		Txp[1] /= 2;
+		Txp[2] /= 2;
 	}
 	else if (pInfo->OUTPUT_POWER == OUTPUT_POWER_MID){
-		Txp[0] /= 10;
-		Txp[1] /= 10;
-		Txp[2] /= 10;
+		Txp[0] /= 2;
+		Txp[1] /= 2;
+		Txp[2] /= 2;
+	}
+	else if (pInfo->OUTPUT_POWER == OUTPUT_POWER_HIGH){
+		Txp[0] /= 2;
+		Txp[1] /= 2;
+		Txp[2] /= 2;
 	}
 #endif
 
